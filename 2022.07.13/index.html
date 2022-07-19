@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>You Are Awesome!</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="contents">
+      <div class="status-bar">
+        <!-- X icon -->
+        <div class="status-bar__column status-bar__column--emoticon">
+          <i class="fa-solid fa-x"></i>
+        </div>
+        <div class="status-bar__column status-bar__column--playlist">
+          Playlist
+        </div>
+        <div class="status-bar__column">
+          <!-- 제목을 정중앙에 놓기 위해 생성 -->
+        </div>
+      </div>
+
+      <main class="current-music">
+        <div class="current-music__img"><i class="fa-solid fa-image"></i></div>
+        <div class="current-music__info">
+          <div class="current-music__title">
+            <span>Random</span>
+            <span>Love</span>
+          </div>
+          <div class="current-music__artist">by Divay Kapoor</div>
+        </div>
+      </main>
+
+      <div class="play-bar">
+        <div class="play-bar__column play-bar__column--play">
+          <i class="fa-solid fa-play"></i> <span>Play</span>
+        </div>
+        <div class="play-bar__column play-bar__column--heart">
+          <i class="fa-solid fa-heart"></i>
+        </div>
+        <div class="play-bar__column play-bar__column--plus">
+          <i class="fa-solid fa-plus"></i>
+        </div>
+      </div>
+
+      <ul class="recommendations">
+        <li class="recommendation">
+          <div class="recommendation__img"></div>
+          <div class="recommendation__info">
+            <div class="recommendation__title">Matargasti</div>
+            <div class="recommendation__artist">Mohit Chauhan</div>
+          </div>
+        </li>
+        <li class="recommendation">
+          <div class="recommendation__img"></div>
+          <div class="recommendation__info">
+            <div class="recommendation__title">Attitude</div>
+            <div class="recommendation__artist div-for-dots__father">
+              Lewis OfMan
+              <div id="div-for-dots"></div>
+              Attitude
+            </div>
+          </div>
+        </li>
+        <li class="recommendation">
+          <div class="recommendation__img"></div>
+          <div class="recommendation__info">
+            <div class="recommendation__title">Try Everything</div>
+            <div class="recommendation__artist div-for-dots__father">
+              Shakira
+              <div id="div-for-dots"></div>
+              Zootopia
+            </div>
+          </div>
+        </li>
+        <li class="recommendation">
+          <div class="recommendation__img"></div>
+          <div class="recommendation__info">
+            <div class="recommendation__title">Sunflower</div>
+            <div class="recommendation__artist div-for-dots__father">
+              Joseph Vincent
+              <div id="div-for-dots"></div>
+              Sunflower
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6376ec8438.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

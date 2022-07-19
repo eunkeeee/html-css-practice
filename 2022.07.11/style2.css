@@ -1,0 +1,68 @@
+body {
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Times New Roman", Times, serif;
+}
+.colors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: space-between;
+
+  width: 330px;
+  height: 550px;
+}
+.color {
+  width: 145px;
+  height: 255px;
+  border: 4.5px solid white;
+  position: relative;
+}
+.upper {
+  height: 5%;
+}
+.middle {
+  width: 100%;
+  height: 33%;
+  background-color: white;
+  font-weight: 700;
+  position: absolute;
+  border: none;
+}
+.bottom {
+  height: 62%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+/* color 지정 */
+.color:first-child > div:nth-child(odd) {
+  background-color: tomato;
+}
+.color:nth-child(2) > div:nth-child(odd) {
+  background-color: teal;
+}
+.color:nth-child(3) > div:nth-child(odd) {
+  background-color: burlywood;
+}
+.color:last-child > div:nth-child(odd) {
+  background-color: thistle;
+}
+
+/* font 위치조정 */
+/* color is a relative father */
+.middle_colorname {
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.middle_colornumber {
+  font-size: 11px;
+}
+.middle_content {
+  position: absolute;
+  left: 5px;
+  top: 15px;
+}

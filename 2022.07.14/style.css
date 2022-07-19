@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+}
+.star-full {
+  color: #ffce33;
+}
+.star-empty {
+  color: #ededed;
+}
+.main-contents {
+  margin-left: 30px;
+}
+/* Library header */
+.yellow-background {
+  background-color: #ffce33;
+}
+.library-header {
+  display: flex;
+  padding: 60px 20px 100px 20px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+/* Search box */
+
+.search-box {
+  position: relative;
+  bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 93%;
+  height: 120px;
+  border-radius: 60px;
+  box-shadow: 10px 5px 5px #ededed;
+  background-color: white;
+  font-size: 25px;
+  margin: 0px 20px;
+  padding: 40px 35px 40px 65px;
+}
+.search-box__column {
+  color: #ededed;
+}
+
+/* Book of the day */
+.book-of-the-day {
+  margin-bottom: 60px;
+}
+.main-header {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+.book-of-the-day__img {
+  border-radius: 15px;
+  width: 240px;
+  height: 340px;
+}
+.book-of-the-day__info {
+  display: flex;
+}
+.book-of-the-day__content {
+  margin-left: 40px;
+}
+.book-of-the-day__title {
+  font-size: 28px;
+  font-weight: 520;
+  margin-bottom: 20px;
+}
+.book-of-the-day__author {
+  color: #ededed;
+  font-size: 24px;
+}
+.book-of-the-day__rating {
+  margin-top: 20px;
+  margin-bottom: 45px;
+  font-size: 23px;
+}
+.book-of-the-day__search-btn {
+  font-size: 20px;
+  background-color: #ededed;
+  border: none;
+  border-radius: 5px;
+  width: 160px;
+  height: 45px;
+  margin-bottom: 45px;
+}
+.book-of-the-day__search-btn:first-child {
+  margin-right: 10px;
+}
+
+.book-of-the-day__bookmark {
+  width: 70px;
+  height: 70px;
+  font-size: 25px;
+  text-align: center;
+  border: none;
+  border-radius: 50%;
+  background-color: #ffce33;
+  margin-right: 40px;
+}
+.book-of-the-day__book-now {
+  width: 230px;
+  height: 80px;
+  color: white;
+  font-size: 20px;
+  background-color: black;
+  border: none;
+  border-radius: 10px;
+}
+
+/* Top Adventures */
+.top-adventures {
+  margin-bottom: 30px;
+}
+.top-adventures__contents {
+  display: flex;
+  overflow-x: scroll;
+}
+.top-adventure {
+  margin-right: 60px;
+}
+.top-adventure__img {
+  width: 165px;
+  height: 250px;
+  border-radius: 7px;
+  margin-bottom: 25px;
+}
+.top-adventure__ratings {
+  margin-left: 15px;
+}
+
+/* Popular authors */
+.popular-authors__img {
+  width: 240px;
+  height: 300px;
+  border-radius: 15px;
+}
+.popular-author {
+  display: flex;
+}
+.popular-author__info {
+  line-height: 150%;
+  margin-left: 50px;
+}
+.popular-author__name {
+  font-size: 26px;
+  margin-bottom: 35px;
+}
+.popular-author__content {
+  font-size: 16px;
+  color: #ededed;
+}
